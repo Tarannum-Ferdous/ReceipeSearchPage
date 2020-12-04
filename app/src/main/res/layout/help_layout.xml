@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="15sp"
+        android:text="Instructions- "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:text="The user can enter the name of a recipe to search. The server returns a list of recipes that match the search terms. You should just show the Titles of the recipe in a list. If the user selects one of the recipes, there should be a details page which shows the Title, ingredients and URL to that recipe. Clicking on that URL should launch a browser that loads that URL. There should also be a Save button to save the recipe details on the device. "
+        />
+
+</LinearLayout>

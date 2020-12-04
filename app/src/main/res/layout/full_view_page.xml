@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/favorite"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_star_border_24"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/image"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="this is title"/>
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/Ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is Ingredients"/>
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff"
+                android:text="this is link"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
